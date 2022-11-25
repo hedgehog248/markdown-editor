@@ -14,7 +14,7 @@ const Header = styled.header`
 
 const Wrapper = styled.div`
   bottom: 0;
-  let: 0;
+  left: 0;
   position: fixed;
   right: 0;
   top: 3rem;
@@ -50,7 +50,7 @@ export const Editor: React.FC = () => {
         Markdown Editor
       </Header>
       <Wrapper>
-        <TextArea value="テキストエリア" />
+        <TextArea value="テキスト入力エリア" />
         <Preview>プレビューエリア</Preview>
       </Wrapper>
     </>
