@@ -21,6 +21,11 @@ const Modal = styled.div`
   width: 32rem;
 `
 
+const TitleInput = styled.input`
+  width: 29rem;
+  padding: 0.5rem;
+`
+
 const Control = styled.div`
   display: flex;
   justify-content: spae-evenly;
@@ -42,7 +47,7 @@ export const SaveModal: React.FC<Props> = props => {
         <p>テキストの内容を保存します。</p>
         <p>保存内容のタイトルを入力して「保存」ボタンを押してください。</p>
         <p>
-          <titleInput
+          <TitleInput
             type="text"
             value={title}
             onChange={(event) => setTitle(event.target.value)}
