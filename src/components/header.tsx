@@ -18,6 +18,7 @@ const HeaderControl = styled.div`
   display: flex;
   height: 2rem;
   align-content: center;
+  
   & > * {
     margin-left: 0.5rem;
   }
